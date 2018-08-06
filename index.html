@@ -2,10 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title> Java Script tutorials</head>
+
+    <title>Title</title> Программа для розрахунку периметра та площі трикутника
+</head>
 <body>
-<input type="checkbox">
-<script src="script.js">
+<script type="text/javascript">
+    function perimetr() {
+        var a= parseInt(document.f1.a.value);
+        var b=parseInt(document. f1.b.value);
+        var c=parseInt(document. f1.c.value);
+        var per=a+b+c;
+        alert(per);
+    }
 </script>
+
 </body>
+<h1>Розрахунок</h1>
+<form name="f1">
+    <input type="text" name="a" id="a" style="font-size: large">
+    <input type="text" name="b" id="b" style="font-size: large">
+    <input type="text" name="c" id="c" style="font-size: large">
+    <input type="button" value="Площа прямокутного трикутника" onclick="perimetr();"style="font-size: large">
+</form>
 </html>
