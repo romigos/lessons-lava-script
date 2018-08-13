@@ -6,7 +6,17 @@ h1 {
     font-size: large;
     text-align: center;
 }
+.wrapper{
+    width:76%;
+    margin: 0 auto;
+}
+main .main_about{
+    display: flex;
 
+}
+.about_right{
+    margin-left: 175px;
+}
 
 .forma{
     font-size: large;
