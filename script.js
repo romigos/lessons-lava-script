@@ -1,3 +1,4 @@
+//js 12 площа і периметр трикутника
 function perimetr() {
     var a = parseInt(document.f1.a.value);
     var b = parseInt(document.f1.b.value);
