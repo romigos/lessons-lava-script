@@ -1,12 +1,12 @@
 //js 12 площа і периметр трикутника
-function perimetr() {
+function perimeterTriangle(){
     var a=document.forma1.a.value;
     var b=document.forma1.b.value;
     var c=document.forma1.c.value;
     var p=a*b*c;
-   document.forma1.res.value=p;
+    document.forma1.res.value=p;
 }
-function ploshcha() {
+function areaTriangle(){
     var a=document.forma1.a.value;
     var b=document.forma1.b.value;
     var c=document.forma1.c.value;
