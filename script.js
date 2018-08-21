@@ -16,3 +16,24 @@ function areaTriangle(){
     alert(s);
     document.forma1.res.value=s;
 }
+/*
+var x = prompt("Введите значение x ", "0");
+var y = prompt("Введите значение y ", "0.0");
+var integerX = parseInt("x");
+var floatY = parseFloat("y");
+var result = integerX + floatY;
+alert (result);
+document.write("result");
+*/
+var firstName = prompt("Введите имя", "сюда");
+var lastName = prompt("Введите фамилию","сюда");
+var age = prompt("Введите возраст","сюда");
+document.write ("Привет, firstName");
+function zapoln()
+{
+    x=prompt("Введите первое число");
+    y=prompt("Введите второе число");
+    var proiz=0;
+    proiz=x*y;
+    alert(proiz);
+}
