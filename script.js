@@ -4,8 +4,9 @@ function perimeterTriangle() {
     var st2 = parseInt(document.forma1.t2.value);
     var st3 = parseInt(document.forma1.t3.value);
     var perimetr = st1 + st2 + st3;
+    var res = perimetr;
         //alert(perimetr);//
-    document.getElementById('perimetr').value;
+    document.forma1.res.value;
 }
 function areaTriangle() {
     var st1 = parseInt(document.forma1.t1.value);
