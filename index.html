@@ -28,14 +28,24 @@
                         <input type="text" name="t2"> сторона B<br><hr>
                         <input type="text" name="t3"> сторона C<br><hr>
                         <input type="button" name="button" value=" P (Розрахунок) =" onclick="perimeterTriangle()">
-                        <span id="res"></span><br>
+                        <span id="res1" size="3"></span><br>
                         <input type="button" value=" S (Розрахунок) =" onclick="areaTriangle();">
-                        <input type="number" id="res" name="res" size="3"><br>
-                    </form>
+                        <span id="res2" size="3"></span><br><hr>
+                        <label>НАЖМИ НА МЕНЯ Я СКАЖУ МЯУ</label>
+                        <img onclick="terra()" src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/cat-128.png">
+                   </form>
                 </div>
             </div>
         </div>
     </div>
+    <h1> Завдання Jr 13.Приклад простого калькулятора</h1>
+    <p>Введіть число 1: <input type="text" id="n1"></p>
+    <p>Введіть число 2: <input type="text" id="n2"></p>
+    <button onclick="plus()">Додавання</button>
+    <button onclick="minus()">Віднімання</button>
+    <hr>
+    <p id="out">Результат</p>
 </main>
 </body>
 </html>
+
